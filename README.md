@@ -2,7 +2,7 @@
 
 **Please note: this codelab is no longer maintained.**
 
-**An updated codelab is available at [codelabs.developers.google.com/codelabs/webrtc-web](https://codelabs.developers.google.com/codelabs/webrtc-web/#0)**
+**An updated codelab is available at [codelabs.developers.google.com/codelabs/webrtc-web](https://codelabs.developers.google.com/codelabs/webrtc-web/#0)**.
 
 
 ##Overview
