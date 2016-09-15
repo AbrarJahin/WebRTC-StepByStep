@@ -47,7 +47,7 @@ function trace(text) {
 function createConnection() {
   var servers = null;
   window.localPeerConnection = new RTCPeerConnection(servers,
-    {optional: [{RtpDataChannels: true}]});
+    {optional: [{RtcDataChannels: true}]});
   trace('Created local peer connection object localPeerConnection');
 
   try {
@@ -65,7 +65,7 @@ function createConnection() {
   sendChannel.onclose = handleSendChannelStateChange;
 
   window.remotePeerConnection = new RTCPeerConnection(servers,
-    {optional: [{RtpDataChannels: true}]});
+    {optional: [{RtcDataChannels: true}]});
   trace('Created remote peer connection object remotePeerConnection');
 
   remotePeerConnection.onicecandidate = gotRemoteIceCandidate;
